@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.cont {
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(120, 82%, 74%);
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.quad {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #d3d351;
+    width: 25vw;
+    height: 35vh;
+    rotate:45deg;
+
+
+}
+
+.bola {
+    background-color: #3737d1;
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+}

@@ -1,0 +1,153 @@
+
+
+
+*{
+    box-sizing: border-box;
+    margin:0px;
+}
+
+#inp1{
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    color: #000000;
+    font: 14px Helvetica;
+    height: 40px;
+    line-height: 17px;
+    padding: 0 16px;
+    width: 26%;
+    position: absolute;
+    top: 350px;
+    left:700px ;
+}
+   
+
+
+#inp2{
+    position: absolute;
+    top: 410px;
+    left: 700px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    color: #000000;
+    font: 14px Helvetica;
+    height: 40px;
+    line-height: 17px;
+    padding: 20px;
+    width: 26%;
+}
+#inp3{
+    position: absolute;
+    top: 530px;
+    left: 700px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    color: #000000;
+    font: 14px Helvetica;
+    height: 40px;
+    line-height: 17px;
+    padding: 0 16px;
+    width: 26%;
+}
+#s1{
+    position: absolute;
+    top: 590px;
+    left: 700px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    color: #000000;
+    font: 14px Helvetica;
+    height: 40px;
+    line-height: 17px;
+    padding: 0 16px;
+    width: 26%;
+}
+#inp5{
+    position: absolute;
+    top: 470px;
+    left: 700px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid #a8a8a8;
+    box-sizing: border-box;
+    color: #000000;
+    font: 14px Helvetica;
+    height: 40px;
+    line-height: 17px;
+    padding: 0 16px;
+    width: 26%;
+}
+
+.div1 h1{
+    font: 30px 'font01';
+    position: relative;
+    top: 100px;
+    color: #fff;
+}
+   
+.div1 p{
+    font: 20px 'font02';
+    width: 350px;
+    color: rgb(180, 178, 178);
+    position: relative;
+    top: 120px;
+    left: 700px;
+}
+
+
+#a1{
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    border: none;
+    text-align: center;
+}
+#b1{
+    border: none;
+    padding: 10px 60px;
+    background-color: black;
+    text-align: center;
+    position: absolute;
+    top: 680px;
+    left: 840px;
+    border-radius: 10px;
+}
+
+#b2{
+    
+    position: absolute;  
+    left: 856px;
+    top: 170px;
+    padding: 10px 20px;
+    background-color: white;
+}
+
+#b2 img{
+    display: flex;
+    justify-content: center;
+}
+
+#b2 a{
+    text-decoration: none;
+}
+
+.div1{
+background-color: #6495ed;
+height: 100vh;
+width: 100vw;
+
+}
+
+.fundo{
+background-color: #2b374e;
+width: 40vw;
+height: 80vh;
+margin-left: 565px;
+border-radius: 45px;
+
+
+
+
+}

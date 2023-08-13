@@ -1,0 +1,80 @@
+*{
+margin:0px;
+box-sizing: border-box;
+
+}
+.sessao{
+display: flex;
+flex-direction: column;
+
+}
+
+.cabecalho{
+background-color: #6cb39b;
+height: 40vh;
+
+
+
+}
+
+.conteudo{
+    display: flex;
+    flex-direction: row;
+    background-color: #241f1f;
+    height: 60vh;
+
+}
+
+.esquerda{
+display: flex;
+flex-direction: column-reverse;
+
+}
+.esquerda>div{
+background-color: #9b9292;
+height: 30px;
+margin: 10px;
+width: 620px;
+
+
+}
+
+.meio{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+
+.meio>div{
+    background-color: #9b9292;
+    height: 30px;
+    margin: 10px;
+    width: 620px;
+    
+
+
+}
+
+
+.direita{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+justify-content: flex-start;
+
+
+
+
+}
+
+.direita>div{
+    background-color: #9b9292;
+    height: 30px;
+    margin: 10px;
+    width: 620px;
+    
+
+
+
+}

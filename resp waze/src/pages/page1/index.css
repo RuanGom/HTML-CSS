@@ -1,0 +1,184 @@
+body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+
+header{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height:20% ;
+    width: 100%;
+}
+
+header div{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px;
+}
+
+header svg{
+    width:10%;
+}
+
+header a{
+    text-decoration: none;
+    color: black;
+    font-size: 24px;
+    margin: 0px 20px;
+}
+
+header section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 40px; 
+}
+
+#a1{
+    border: 3px solid #000;
+    border-radius: 30px;
+    padding: 15px 30px;
+}
+
+.p{
+    color: #fff;
+}
+
+
+article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+article > div{
+    background-color: #f2f4f7;
+    width: 90%;
+    height: 40%;
+    border-radius: 20px;
+    padding: 40px;
+
+
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+article > div > h1{
+    font-size: 85px;
+    margin: 0px 30px;
+}
+
+article > div > img{
+    width: 20%;
+    position: relative;
+    top: 65px;
+    margin-right: 40px;
+
+}
+
+article section{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: auto;
+}
+
+article section div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    width: 600px;
+    height:500px;
+    margin: 50px;
+    border-radius: 25px;
+     padding: 50px;
+}
+
+
+article section img{
+    height:80px ;
+}
+.amarelo{
+background-color: rgb(255, 255, 61);
+
+
+}
+
+.laranja{
+    background-color: orange;
+}
+
+.azul{
+    background-color: rgb(76, 163, 235);
+}
+.verde{
+    background-color: rgb(77, 175, 77);
+}
+.roxo{
+    display: flex;
+    justify-content: flex-start ;
+    align-items: flex-start;
+    flex-direction: column;
+    background-color: #963eff;
+    margin: 80px;
+    border-radius: 30px;
+    padding: 50px;
+    width: 75%;
+}
+
+.roxo img{
+     height:80px ;
+     width: 80px;
+}
+
+
+
+@media (max-width: 1200px){
+
+    article section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        }
+   body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   }
+}
+
+@media (max-width: 514px){
+    header a {
+        display: none;
+    }
+
+    body{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+       }
+
+       article section div{
+        width: 350px;
+        height:250px;
+        align-self: center;
+       }
+
+       .p{
+        color: black;
+       }
+}

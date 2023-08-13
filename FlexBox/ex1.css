@@ -1,0 +1,31 @@
+*{
+   margin: 0px;
+   box-sizing: border-box;
+
+}
+.se1{
+display: flex;
+flex-direction: column;
+
+
+}
+.cab{
+background-color: #00ffff;
+height: 15vh;
+
+
+}
+.cont{
+   background-color: #a145cc;
+   height: 70vh;
+   
+
+
+}
+.rod{
+   background-color:#4fb857;
+   height: 15vh;
+   
+
+
+}

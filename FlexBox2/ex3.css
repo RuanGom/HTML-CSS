@@ -1,0 +1,22 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.sec{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #367a7a;
+    height: 100vh;
+
+}
+
+.sec>div{
+    background-color: #ffffff;
+    height: 50vh;
+    width: 35vw;
+    
+
+}

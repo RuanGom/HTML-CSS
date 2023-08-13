@@ -1,0 +1,40 @@
+*{ box-sizing: border-box ;
+    margin: 0px;
+
+}
+body{
+
+    background-color: #00ffff;
+
+}
+.secao{
+    display:flex;
+    flex-direction: column;
+    
+   margin: 15px;
+
+
+}
+
+.cima{ height: 30vh;
+    width: 25vw;
+    background-color:  #800080;
+    flex-direction: row;
+    display:flex;
+    align-self: flex-start;
+    border-radius: 100%;
+    
+}
+
+.meio{height: 30vh;
+    width: 25vw;
+  background-color:  #800080;
+    align-self: center;
+    border-radius: 100%;
+}
+.baixo{height: 30vh;
+    width: 25vw;
+ background-color:  #800080;
+    align-self: flex-end;
+    border-radius: 100%;
+}

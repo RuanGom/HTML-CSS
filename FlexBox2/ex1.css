@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.secao{
+    display: flex;
+    flex-direction: row;
+    height: 20vh;
+    background-color: #247777;
+}
+
+.secao > div{
+    
+    background-color: #949191;
+    margin: 20px;
+    height: 15vh;
+    width: 10vw;
+}

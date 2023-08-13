@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+ 
+ }
+ .se1{
+    display: flex;
+    flex-direction: column;
+   }
+ .cab{
+ background-color: #00ffff;
+ height: 15vh;
+ 
+ 
+ }
+ .cont{
+    display: flex;
+    flex-direction: row;
+    
+ 
+ 
+ }
+ .esq{
+    background-color: #a145cc;
+    height: 70vh;
+    width: 25vw;
+
+
+ }
+ .dir{
+    background-color: #5249ca;
+    height: 70vh;
+    width: 75vw;
+
+ }
+ .rod{
+    background-color:#4fb857;
+    height: 15vh;
+    
+ 
+ 
+ }
+ 
